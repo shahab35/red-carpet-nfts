@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.item {
+    margin: 10px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    width: 200px;
+}
+.item img {
+    width: 100%;
+    border-radius: 4px;
+}
+footer {
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+a {
+    color: #44f;
+    text-decoration: none;
+}
